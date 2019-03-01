@@ -1,16 +1,17 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteTitle: `La Stazione Bakery & Cafe`,
+  siteTitleShort: `LaStaz`,
+  siteDescription: `Traditional and local bakery and cafe`,
+  siteUrl: `https://lastazione-bakery.com.au`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
-    twitter: `gatsbyjs`,
+    twitter: `lastazioneau`,
     fbAppId: `966242223397117`,
   },
+  breadsTitle: `Freshly Baked Breads`
 };

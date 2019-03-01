@@ -2,18 +2,28 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
+    "title": "Breads",
+    "copy": "Freshly baked daily",
     "image": "../images/gallery/react-context.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
+    "title": "Coffee",
+    "copy": "We serve award winning coffee",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
-    "title": "Intersection Observer",
+    "title": "Breakfast and Lunch Menu",
     "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/intersection-observer.jpg"
+  },
+  {
+    "title": "Order online",
+    "copy": "Find us on Skip App, HeyYou App, Menulog (coming soon)",
+    "image": "../images/gallery/intersection-observer.jpg"
+  },
+  {
+    "title": "Catering",
+    "copy": "We provide options for your catering needs",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
 }
