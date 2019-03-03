@@ -1,21 +1,16 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+Address: 
+    27 Rohini Street (Just across Turramurra train station)
+    Turrmurra
+    NSW
+    2071
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+Phone: +61 (02) 9449 3800
 
-# To develop
-yarn develop
+Email: hello@lastazione-bakery.com.au
 
-# To build
-yarn build
+------------------------------------------------------------------------
 
-# To test SSR (for Lighthouse etc.)
-yarn ssr
+We are proud and committed with each and everyone of our customers.
 
-# To format JS (precommit)
-yarn format
+If you want to contact us please fill the following form:
 
-# To generate favicons (included in `build`)
-yarn build:favicons
-```

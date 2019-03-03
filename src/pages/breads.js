@@ -7,13 +7,13 @@ import Head from 'components/head';
 
 const Breads = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.site.siteMetadata.breadsTitle} />
+    <Head pageTitle={data.breadsJson.title} />
     <Box>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.site.siteMetadata.siteDescription,
-        }}
-      />
+        <div
+            dangerouslySetInnerHTML={{
+            __html: data.breadsJson.content.childMarkdownRemark.html,
+            }}
+        />
     </Box>
   </Layout>
 );
@@ -25,17 +25,12 @@ Breads.propTypes = {
 export default Breads;
 
 export const query = graphql`
-query {
-    site {
-      siteMetadata {
-        siteTitle
-        siteTitleShort
-        siteDescription
-        siteUrl
-        themeColor
-        social {
-          twitter
-          fbAppId
+  query BreadsQuery {
+    breadsJson {
+      title
+      content {
+        childMarkdownRemark {
+          html
         }
       }
     }

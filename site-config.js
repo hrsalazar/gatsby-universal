@@ -12,6 +12,5 @@ module.exports = {
   social: {
     twitter: `lastazioneau`,
     fbAppId: `966242223397117`,
-  },
-  breadsTitle: `Freshly Baked Breads`
+  }
 };
