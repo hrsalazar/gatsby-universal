@@ -15,6 +15,9 @@ const Nav = () => (
         <Link to="/coffee">Coffee</Link>
       </li>
       <li>
+        <Link to="/menu">Menu</Link>
+      </li>
+      <li>
         <Link to="/catering">Catering</Link>
       </li>
     </ul>

@@ -4,17 +4,17 @@
   "gallery": [{
     "title": "Breads",
     "copy": "Freshly baked daily",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/breads.jpg"
   },
   {
     "title": "Coffee",
     "copy": "We serve award winning coffee",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/coffee_bg.jpg"
   },
   {
     "title": "Breakfast and Lunch Menu",
     "copy": "Delicious options with only fresh ingredients",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/sandwich.jpg"
   },
   {
     "title": "Order online",
@@ -24,6 +24,7 @@
   {
     "title": "Catering",
     "copy": "We provide options for your catering needs",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+    "image": "../images/gallery/smoothies.jpg"
+  }],
+  "menu": "menu.md"
 }

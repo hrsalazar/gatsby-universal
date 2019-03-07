@@ -10,7 +10,5 @@ Email: hello@lastazione-bakery.com.au
 
 ------------------------------------------------------------------------
 
-We are proud and committed with each and everyone of our customers.
 
-If you want to contact us please fill the following form:
 
