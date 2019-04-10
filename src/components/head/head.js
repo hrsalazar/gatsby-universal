@@ -6,15 +6,15 @@ import { Location } from '@reach/router';
 import schemaGenerator from 'helpers/schemaGenerator';
 
 const Head = ({
-  siteTitle,
-  siteDescription,
-  siteUrl,
-  pageTitle,
+  siteTitle = 'La Stazione Cafe and Bakery in Turramurra',
+  siteDescription = 'Traditional cafe, coffee shop and bakery with fresh and delicious breads and sandwiches in Turramurra',
+  siteUrl = 'www.lastazione-bakery.com.au',
+  pageTitle = 'La Stazione Bakery and cafe coffee shop in Turramurra',
   pageTitleFull = pageTitle ? `${siteTitle}: ${pageTitle}` : siteTitle,
   themeColor,
   social,
   imageUrl,
-  location,
+  location = "Turramurra, New South Wales, Australia",
   canonical = siteUrl + (location.pathname || ''),
 }) => (
   <Helmet>
